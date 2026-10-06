@@ -1,0 +1,35 @@
+{
+  "heading": "Every service we offer",
+  "items": [
+    {
+      "name": "Land clearing and site prep",
+      "description": "Trees, brush, stumps, rocks and debris removed, then graded for new construction, pasture or farmland.",
+      "icon": "land"
+    },
+    {
+      "name": "Demolition",
+      "description": "Structures taken down and everything cleared away to leave a clean, build-ready space.",
+      "icon": "demo"
+    },
+    {
+      "name": "Concrete",
+      "description": "Our specialty. Driveways, sidewalks, pads and repairs for homes, businesses and municipal sites.",
+      "icon": "concrete"
+    },
+    {
+      "name": "Fencing and gates",
+      "description": "Wood and iron fence installation, gates and fence repairs that keep a property secure.",
+      "icon": "fence"
+    },
+    {
+      "name": "Tree services",
+      "description": "Trimming, removal and health checks, so problem branches go and healthy trees have room to grow.",
+      "icon": "tree"
+    },
+    {
+      "name": "Property preservation",
+      "description": "Vacant property maintenance, cleanup, power washing and preventative upkeep.",
+      "icon": "property"
+    }
+  ]
+}

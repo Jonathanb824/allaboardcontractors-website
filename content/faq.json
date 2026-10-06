@@ -1,0 +1,34 @@
+{
+  "heading": "Common questions",
+  "intro": "Don't see yours? Call us and we'll answer it directly.",
+  "items": [
+    {
+      "question": "What services do you provide?",
+      "answer": "Concrete, fencing, gates, demolition, land clearing, tree work and landscaping. We handle residential and commercial projects, big or small."
+    },
+    {
+      "question": "Is your company certified?",
+      "answer": "Yes. We are a certified WBE, SBE and DBE construction company."
+    },
+    {
+      "question": "Do you offer free estimates?",
+      "answer": "Absolutely. Estimates are free and carry no obligation, so you know the cost before we start."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "Houston, Texas and the surrounding areas. We also take on larger municipal and commercial projects across Texas."
+    },
+    {
+      "question": "How soon can you start my project?",
+      "answer": "Start times depend on the scope and our schedule, but we aim to begin promptly once the estimate is approved and contracts are signed."
+    },
+    {
+      "question": "Do you handle permits?",
+      "answer": "We guide clients on permit requirements. For larger projects we often coordinate with municipalities to make sure the work is compliant."
+    },
+    {
+      "question": "Do you take both residential and commercial work?",
+      "answer": "Yes, from backyard fencing and driveways to large-scale concrete and demolition."
+    }
+  ]
+}

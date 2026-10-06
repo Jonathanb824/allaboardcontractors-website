@@ -1,0 +1,62 @@
+{
+  "heading": "Featured projects",
+  "intro": "Photos from our own job sites around Houston. Ask us for references on work like yours.",
+  "items": [
+    {
+      "tag": "Fencing",
+      "title": "Wood fence installation",
+      "text": "New privacy fencing, set and built by our crew.",
+      "image": "/images/allaboard-wood-fence-finished.jpg",
+      "image_alt": "New wood fence"
+    },
+    {
+      "tag": "Concrete",
+      "title": "Sidewalk repair",
+      "text": "Damaged concrete removed and replaced for a safe, even walking surface.",
+      "image": "/images/allaboard-sidewalk.jpg",
+      "image_alt": "Repaired concrete sidewalk"
+    },
+    {
+      "tag": "Demolition",
+      "title": "Structure demolition",
+      "text": "Taken down, cleared and left ready for what comes next.",
+      "image": "/images/allaboard-demolition-dump-truck.jpg",
+      "image_alt": "Demolition in progress"
+    },
+    {
+      "tag": "Fencing",
+      "title": "Iron fence installation",
+      "text": "A secure perimeter with a clean, finished look.",
+      "image": "/images/allaboard-iron-fence-install.jpg",
+      "image_alt": "New iron fence"
+    },
+    {
+      "tag": "Concrete",
+      "title": "Concrete flatwork",
+      "text": "Formed, poured and finished to last.",
+      "image": "/images/allaboard-concrete-pour.jpg",
+      "image_alt": "Finished concrete work"
+    },
+    {
+      "tag": "Fencing",
+      "title": "Wood fence framing",
+      "text": "Posts set and rails run, ready for pickets.",
+      "image": "/images/allaboard-wood-fence-framing.jpg",
+      "image_alt": "Wood fence framing in a backyard"
+    },
+    {
+      "tag": "Land clearing",
+      "title": "Lot clearing and grading",
+      "text": "Brush and debris removed and the ground leveled, ready to build.",
+      "image": "/images/allaboard-cleared-lot.jpg",
+      "image_alt": "Cleared and graded residential lot"
+    },
+    {
+      "tag": "Fencing",
+      "title": "Crew on a fence build",
+      "text": "Laying out the line before posts go in.",
+      "image": "/images/allaboard-fence-crew.jpg",
+      "image_alt": "All Aboard crew laying out a new fence line"
+    }
+  ]
+}

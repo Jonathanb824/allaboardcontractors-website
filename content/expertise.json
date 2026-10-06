@@ -1,0 +1,40 @@
+{
+  "heading": "Our expertise",
+  "intro": "We're equipped for projects of every size, from chainsaw precision work to bulldozers, excavators and backhoes for large-scale clearing.",
+  "background": "https://images.pexels.com/photos/30354001/pexels-photo-30354001.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  "cards": [
+    {
+      "title": "Site work",
+      "text": "We take a property from overgrown or occupied to clean and build-ready.",
+      "points": [
+        "Land clearing and grubbing",
+        "Pad grading and excavation",
+        "Demolition and haul-off"
+      ],
+      "image": "/images/allaboard-demolition-excavator.jpg",
+      "image_alt": "All Aboard Contractors equipment on a demolition site"
+    },
+    {
+      "title": "Concrete and fencing",
+      "text": "Flatwork and fence lines built to last, from one driveway to large-scale pours.",
+      "points": [
+        "Driveways, sidewalks and pads",
+        "Concrete repair",
+        "Wood and iron fences, gates"
+      ],
+      "image": "/images/allaboard-concrete-pour.jpg",
+      "image_alt": "Concrete work by All Aboard Contractors"
+    },
+    {
+      "title": "Property care",
+      "text": "Maintenance that keeps vacant and occupied properties safe, secure and presentable.",
+      "points": [
+        "Vacant property maintenance",
+        "Tree trimming and removal",
+        "Power washing and landscaping"
+      ],
+      "image": "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt": "Crew member cutting a tree with a chainsaw"
+    }
+  ]
+}

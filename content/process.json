@@ -1,0 +1,22 @@
+{
+  "heading": "From first call to clean handover",
+  "intro": "Every job runs the same line, whether it's one driveway or a municipal site. You always know which stop you're at.",
+  "steps": [
+    {
+      "title": "Free estimate",
+      "text": "Call or send a request. We review the job and give you a no-obligation price up front."
+    },
+    {
+      "title": "Agreement and permits",
+      "text": "Once you approve the estimate we sign a contract and guide you on permit requirements. On larger projects we coordinate with the municipality."
+    },
+    {
+      "title": "Work on site",
+      "text": "Our crew and equipment arrive on schedule and keep a safe working environment from start to finish."
+    },
+    {
+      "title": "Clean handover",
+      "text": "We clear debris and leave the site safe, functional and ready for its next purpose."
+    }
+  ]
+}

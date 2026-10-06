@@ -1,0 +1,24 @@
+{
+  "lead": "We're All Aboard Contractors.",
+  "statement": "The family-owned Houston crew that clears the land, takes down what's in the way, pours the concrete and builds the fence line. Certified, equipped and ready for work of every size. Your project. Our solutions.",
+  "image": "https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "image_alt": "Excavator at work on a job site",
+  "stats": [
+    {
+      "number": "100%",
+      "label": "family owned and operated"
+    },
+    {
+      "number": "3",
+      "label": "certifications: WBE, SBE and DBE"
+    },
+    {
+      "number": "6",
+      "label": "services from one contractor"
+    },
+    {
+      "number": "$0",
+      "label": "for your estimate, with no obligation"
+    }
+  ]
+}

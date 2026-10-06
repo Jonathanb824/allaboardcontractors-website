@@ -1,0 +1,23 @@
+{
+  "heading": "Family-owned, certified and built on reputation",
+  "paragraphs": [
+    "All Aboard Contractors is dedicated to building strong foundations, in our projects and in our community. We deliver dependable construction and maintenance services, from concrete and demolition to fencing, landscaping and property preservation.",
+    "Our reputation rests on quality workmanship, meeting our customers' schedules and running a safe job site. Our greatest advantage is the expertise and passion of our people."
+  ],
+  "image": "https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "image_alt": "Project team reviewing construction plans",
+  "certifications": [
+    {
+      "code": "WBE",
+      "name": "Woman-owned Business Enterprise"
+    },
+    {
+      "code": "SBE",
+      "name": "Small Business Enterprise"
+    },
+    {
+      "code": "DBE",
+      "name": "Disadvantaged Business Enterprise"
+    }
+  ]
+}
