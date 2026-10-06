@@ -1,0 +1,200 @@
+# Website editor for All Aboard Contractors (Decap CMS)
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://allaboardcontractors.com
+display_url: https://allaboardcontractors.com
+logo_url: /images/all-aboard-logo.svg
+
+# Photos uploaded in the editor are saved here
+media_folder: images
+public_folder: /images
+
+# Simple editing screen (no side-by-side preview)
+editor:
+  preview: false
+
+collections:
+  - name: site
+    label: Website
+    description: Each page below is one part of the website. Make a change, then click Publish. The live site updates in about a minute.
+    delete: false
+    editor:
+      preview: false
+    files:
+      # ---------------- CONTACT DETAILS ----------------
+      - name: business
+        label: "1. Phone, email and address"
+        file: content/business.json
+        fields:
+          - { name: phone_main, label: "Main phone number", widget: string, hint: "Used on every Call button, e.g. 832-940-6189" }
+          - { name: phone_second, label: "Second phone number", widget: string, required: false, hint: "Leave empty to hide it" }
+          - { name: email, label: "Email address", widget: string, hint: "Estimate requests from the website are sent here" }
+          - { name: street, label: "Street address", widget: string }
+          - { name: city_line, label: "City, state and ZIP", widget: string }
+          - { name: facebook, label: "Facebook link", widget: string, required: false, hint: "Leave empty to hide" }
+          - { name: instagram, label: "Instagram link", widget: string, required: false, hint: "Leave empty to hide" }
+          - { name: linkedin, label: "LinkedIn link", widget: string, required: false, hint: "Leave empty to hide" }
+          - { name: tagline, label: "Footer tagline", widget: text }
+
+      # ---------------- TOP OF PAGE ----------------
+      - name: hero
+        label: "2. Top of the page"
+        file: content/hero.json
+        fields:
+          - { name: lead, label: "Opening line (shown in blue)", widget: string }
+          - { name: statement, label: "Main statement", widget: text }
+          - { name: image, label: "Main photo", widget: image }
+          - { name: image_alt, label: "Main photo description", widget: string, hint: "A few words describing the photo, for people who can't see it" }
+          - name: stats
+            label: "Number boxes"
+            label_singular: "number box"
+            widget: list
+            summary: "{{fields.number}} {{fields.label}}"
+            fields:
+              - { name: number, label: "Big number", widget: string, hint: "e.g. 100% or $0" }
+              - { name: label, label: "Text under it", widget: string }
+
+      # ---------------- EXPERTISE ----------------
+      - name: expertise
+        label: "3. Our expertise (three cards)"
+        file: content/expertise.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: intro, label: "Intro text", widget: text }
+          - { name: background, label: "Background photo (shown in black and white)", widget: image }
+          - name: cards
+            label: "Cards"
+            label_singular: "card"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Card title", widget: string }
+              - { name: text, label: "Card text", widget: text }
+              - { name: points, label: "Bullet points", label_singular: "bullet point", widget: list, field: { name: point, label: "Bullet point", widget: string } }
+              - { name: image, label: "Card photo", widget: image }
+              - { name: image_alt, label: "Photo description", widget: string }
+
+      # ---------------- SERVICES ----------------
+      - name: services
+        label: "4. Services list"
+        file: content/services.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - name: items
+            label: "Services"
+            label_singular: "service"
+            widget: list
+            summary: "{{fields.name}}"
+            hint: "These also appear in the Service menu of the estimate form"
+            fields:
+              - { name: name, label: "Service name", widget: string }
+              - { name: description, label: "Short description", widget: text }
+              - name: icon
+                label: "Icon"
+                widget: select
+                default: property
+                options:
+                  - { label: "Bulldozer (land clearing)", value: land }
+                  - { label: "Hammer (demolition)", value: demo }
+                  - { label: "Slab (concrete)", value: concrete }
+                  - { label: "Fence", value: fence }
+                  - { label: "Tree", value: tree }
+                  - { label: "House (property care)", value: property }
+
+      # ---------------- PROJECTS ----------------
+      - name: projects
+        label: "5. Featured projects (photo slider)"
+        file: content/projects.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: intro, label: "Intro text", widget: text }
+          - name: items
+            label: "Projects"
+            label_singular: "project"
+            widget: list
+            summary: "{{fields.title}}"
+            hint: "Add a project to show a new job photo. Drag to reorder."
+            fields:
+              - { name: image, label: "Photo", widget: image }
+              - { name: tag, label: "Type of work", widget: string, hint: "Small label, e.g. Fencing or Concrete" }
+              - { name: title, label: "Project title", widget: string }
+              - { name: text, label: "Short caption", widget: string }
+              - { name: image_alt, label: "Photo description", widget: string }
+
+      # ---------------- COMPANY ----------------
+      - name: company
+        label: "6. About the company"
+        file: content/company.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: paragraphs, label: "Paragraphs", label_singular: "paragraph", widget: list, field: { name: paragraph, label: "Paragraph", widget: text } }
+          - { name: image, label: "Photo", widget: image }
+          - { name: image_alt, label: "Photo description", widget: string }
+          - name: certifications
+            label: "Certifications"
+            label_singular: "certification"
+            widget: list
+            summary: "{{fields.code}}"
+            fields:
+              - { name: code, label: "Short name", widget: string, hint: "e.g. WBE" }
+              - { name: name, label: "Full name", widget: string }
+
+      # ---------------- PROCESS ----------------
+      - name: process
+        label: "7. How we work (steps)"
+        file: content/process.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: intro, label: "Intro text", widget: text }
+          - name: steps
+            label: "Steps"
+            label_singular: "step"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Step title", widget: string }
+              - { name: text, label: "Step text", widget: text }
+
+      # ---------------- AGENCIES ----------------
+      - name: agencies
+        label: "8. Capability statement section"
+        file: content/agencies.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: text, label: "Text", widget: text }
+          - { name: capability_statement, label: "Capability statement (image or PDF)", widget: file, required: false, hint: "Leave empty to hide the button" }
+          - { name: image, label: "Photo", widget: image }
+          - { name: image_alt, label: "Photo description", widget: string }
+
+      # ---------------- FAQ ----------------
+      - name: faq
+        label: "9. Questions and answers"
+        file: content/faq.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: intro, label: "Intro text", widget: string }
+          - name: items
+            label: "Questions"
+            label_singular: "question"
+            widget: list
+            summary: "{{fields.question}}"
+            fields:
+              - { name: question, label: "Question", widget: string }
+              - { name: answer, label: "Answer", widget: text }
+
+      # ---------------- CONTACT + FOOTER ----------------
+      - name: contact
+        label: "10. Estimate form section"
+        file: content/contact.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: intro, label: "Intro text", widget: text }
+
+      - name: footer
+        label: "11. Bottom of the page"
+        file: content/footer.json
+        fields:
+          - { name: heading, label: "Heading", widget: string }
+          - { name: text, label: "Text", widget: text }
