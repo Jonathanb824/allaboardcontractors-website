@@ -141,6 +141,48 @@
       "title": "Iron fence finishing",
       "text": "Painting and finishing a new iron fence.",
       "image_alt": "All Aboard Contractors crew painting and finishing a new iron fence."
+    },
+    {
+      "image": "/images/chain-link-gate-damaged-before.jpg",
+      "tag": "Fencing",
+      "title": "Chain link gate replacement, before",
+      "text": "Damaged chain link gate before replacement.",
+      "image_alt": "Damaged chain link gate before replacement by All Aboard Contractors."
+    },
+    {
+      "image": "/images/chain-link-gate-corner.jpg",
+      "tag": "Fencing",
+      "title": "Chain link gate replacement, after",
+      "text": "New chain link gate, set and hung by our crew.",
+      "image_alt": "Finished chain link gate installed by All Aboard Contractors."
+    },
+    {
+      "image": "/images/wood-fence-old-before.jpg",
+      "tag": "Fencing",
+      "title": "Wood fence replacement, before",
+      "text": "Old weathered wood fence before replacement.",
+      "image_alt": "Old weathered wood fence before replacement by All Aboard Contractors."
+    },
+    {
+      "image": "/images/wood-fence-finished-street.jpg",
+      "tag": "Fencing",
+      "title": "Wood fence replacement, after",
+      "text": "New wood privacy fence, seen from the street.",
+      "image_alt": "Finished wood privacy fence built by All Aboard Contractors."
+    },
+    {
+      "image": "/images/lot-before-iron-fence.jpg",
+      "tag": "Fencing",
+      "title": "Iron fence installation, before",
+      "text": "Empty lot before the iron fence went in.",
+      "image_alt": "Empty lot before iron fence installation by All Aboard Contractors."
+    },
+    {
+      "image": "/images/iron-fence-gate-finished.jpg",
+      "tag": "Fencing",
+      "title": "Iron fence installation, after",
+      "text": "Finished iron fence gate with a privacy screen.",
+      "image_alt": "Finished iron fence gate with a privacy screen, installed by All Aboard Contractors."
     }
   ]
 }
